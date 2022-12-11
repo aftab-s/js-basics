@@ -12,7 +12,7 @@ const Quote = require('inspirational-quotes');        //importing Inspirational 
 //console.log(Quote.getQuote({ author : false}));
 
 var cowsay = require("cowsay");                         //importing Cowsay
-
+  
 console.log(cowsay.say({
     text : Quote.getRandomQuote(),
     e : "oO",
